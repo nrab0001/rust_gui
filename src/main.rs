@@ -3,7 +3,6 @@ use druid::{AppLauncher, LocalizedString, PlatformError, Widget, WidgetExt, Wind
 
 
 fn main()-> Result<(),PlatformError> {
-    println!("Hello, world!");
 
     let main_window= WindowDesc::new(ui_builder);
     let data = 0_u32;
